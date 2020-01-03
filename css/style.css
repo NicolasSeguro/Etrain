@@ -6873,7 +6873,21 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 1, E:/172 Etrain Education/172_Etrain_Education_html/sass/_breadcrumb.scss */
 .breadcrumb_bg {
-  background-image: url("../img/breadcrumb.png");
+  background-image: url("../img/Portada7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about_bg {
+  background-image: url("../img/PortadaAbout.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact_bg {
+  background-image: url("../img/portada3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6895,7 +6909,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   background-color: #000;
   content: "";
-  opacity: 0.8;
+  opacity: 0.4;
   z-index: -1;
 }
 
